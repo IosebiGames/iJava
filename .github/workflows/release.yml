@@ -20,5 +20,5 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-artifact@v4.6.0
         with:
-            name: WebViewTemplate
-            path: WebViewTemplate.ipa
+            name: iJava
+            path: iJava.ipa
