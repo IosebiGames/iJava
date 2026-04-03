@@ -1,1 +1,181 @@
-// !$*UTF8*$! { archiveVersion = 1; classes = {}; objectVersion = 77; objects = { 9D1ABE8B2F4C92CE00FA2C19 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iJava.app; sourceTree = BUILT_PRODUCTS_DIR; }; 1A1111111111111111111111 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; }; 1A2222222222222222222222 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; }; 1A3333333333333333333333 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; }; 1A4444444444444444444444 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = code.m; sourceTree = "<group>"; }; 2B1111111111111111111111 = {isa = PBXBuildFile; fileRef = 1A1111111111111111111111; }; 2B2222222222222222222222 = {isa = PBXBuildFile; fileRef = 1A2222222222222222222222; }; 2B3333333333333333333333 = {isa = PBXBuildFile; fileRef = 1A3333333333333333333333; }; 2B4444444444444444444444 = {isa = PBXBuildFile; fileRef = 1A4444444444444444444444; }; 9D1ABE822F4C92CE00FA2C19 = { isa = PBXGroup; children = ( 9D1ABE8D2F4C92CE00FA2C19, 9D1ABE8C2F4C92CE00FA2C19 ); sourceTree = "<group>"; }; 9D1ABE8C2F4C92CE00FA2C19 = { isa = PBXGroup; children = ( 9D1ABE8B2F4C92CE00FA2C19 ); name = Products; sourceTree = "<group>"; }; 9D1ABE8D2F4C92CE00FA2C19 = { isa = PBXGroup; path = iJava; sourceTree = "<group>"; children = ( 1A1111111111111111111111, 1A2222222222222222222222, 1A3333333333333333333333, 1A4444444444444444444444 ); }; 9D1ABE872F4C92CE00FA2C19 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = ( 2B1111111111111111111111, 2B2222222222222222222222, 2B3333333333333333333333, 2B4444444444444444444444 ); runOnlyForDeploymentPostprocessing = 0; }; 9D1ABE882F4C92CE00FA2C19 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; }; 9D1ABE892F4C92CE00FA2C19 = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; }; 9D1ABE8A2F4C92CE00FA2C19 = { isa = PBXNativeTarget; buildPhases = ( 9D1ABE872F4C92CE00FA2C19, 9D1ABE882F4C92CE00FA2C19, 9D1ABE892F4C92CE00FA2C19 ); buildRules = (); dependencies = (); name = iJava; productName = iJava; productReference = 9D1ABE8B2F4C92CE00FA2C19; productType = "com.apple.product-type.application"; }; 9D1ABE832F4C92CE00FA2C19 = { isa = PBXProject; attributes = { LastUpgradeCheck = 1640; TargetAttributes = { 9D1ABE8A2F4C92CE00FA2C19 = { CreatedOnToolsVersion = 16.4; }; }; }; buildConfigurationList = 9D1ABE862F4C92CE00FA2C19; mainGroup = 9D1ABE822F4C92CE00FA2C19; productRefGroup = 9D1ABE8C2F4C92CE00FA2C19; targets = ( 9D1ABE8A2F4C92CE00FA2C19 ); }; 9D1ABEA42F4C92CF00FA2C19 = { isa = XCBuildConfiguration; buildSettings = { INFOPLIST_FILE = iJava/Info.plist; PRODUCT_BUNDLE_IDENTIFIER = dev.bacho.iJava; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; TARGETED_DEVICE_FAMILY = "1,2"; IPHONEOS_DEPLOYMENT_TARGET = 12.0; }; name = Debug; }; 9D1ABEA52F4C92CF00FA2C19 = { isa = XCBuildConfiguration; buildSettings = { INFOPLIST_FILE = iJava/Info.plist; PRODUCT_BUNDLE_IDENTIFIER = dev.bacho.iJava; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; TARGETED_DEVICE_FAMILY = "1,2"; IPHONEOS_DEPLOYMENT_TARGET = 12.0; }; name = Release; }; }; rootObject = 9D1ABE832F4C92CE00FA2C19; }
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {};
+    objectVersion = 77;
+    objects = {
+
+        9D1ABE8B2F4C92CE00FA2C19 = {
+            isa = PBXFileReference;
+            explicitFileType = wrapper.application;
+            includeInIndex = 0;
+            path = iJava.app;
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+
+        1A1111111111111111111111 = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.c.objc;
+            path = AppDelegate.m;
+            sourceTree = "<group>";
+        };
+
+        1A2222222222222222222222 = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.c.objc;
+            path = ViewController.m;
+            sourceTree = "<group>";
+        };
+
+        1A3333333333333333333333 = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.c.objc;
+            path = SceneDelegate.m;
+            sourceTree = "<group>";
+        };
+
+        1A4444444444444444444444 = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.c.objc;
+            path = code.m;
+            sourceTree = "<group>";
+        };
+
+        2B1111111111111111111111 = {
+            isa = PBXBuildFile;
+            fileRef = 1A1111111111111111111111;
+        };
+
+        2B2222222222222222222222 = {
+            isa = PBXBuildFile;
+            fileRef = 1A2222222222222222222222;
+        };
+
+        2B3333333333333333333333 = {
+            isa = PBXBuildFile;
+            fileRef = 1A3333333333333333333333;
+        };
+
+        2B4444444444444444444444 = {
+            isa = PBXBuildFile;
+            fileRef = 1A4444444444444444444444;
+        };
+
+        9D1ABE822F4C92CE00FA2C19 = {
+            isa = PBXGroup;
+            children = (
+                9D1ABE8D2F4C92CE00FA2C19,
+                9D1ABE8C2F4C92CE00FA2C19
+            );
+            sourceTree = "<group>";
+        };
+
+        9D1ABE8C2F4C92CE00FA2C19 = {
+            isa = PBXGroup;
+            children = (
+                9D1ABE8B2F4C92CE00FA2C19
+            );
+            name = Products;
+            sourceTree = "<group>";
+        };
+
+        9D1ABE8D2F4C92CE00FA2C19 = {
+            isa = PBXGroup;
+            path = iJava;
+            sourceTree = "<group>";
+            children = (
+                1A1111111111111111111111,
+                1A2222222222222222222222,
+                1A3333333333333333333333,
+                1A4444444444444444444444
+            );
+        };
+
+        9D1ABE872F4C92CE00FA2C19 = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                2B1111111111111111111111,
+                2B2222222222222222222222,
+                2B3333333333333333333333,
+                2B4444444444444444444444
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+
+        9D1ABE882F4C92CE00FA2C19 = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = ();
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+
+        9D1ABE892F4C92CE00FA2C19 = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = ();
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+
+        9D1ABE8A2F4C92CE00FA2C19 = {
+            isa = PBXNativeTarget;
+            buildPhases = (
+                9D1ABE872F4C92CE00FA2C19,
+                9D1ABE882F4C92CE00FA2C19,
+                9D1ABE892F4C92CE00FA2C19
+            );
+            buildRules = ();
+            dependencies = ();
+            name = iJava;
+            productName = iJava;
+            productReference = 9D1ABE8B2F4C92CE00FA2C19;
+            productType = "com.apple.product-type.application";
+        };
+
+        9D1ABE832F4C92CE00FA2C19 = {
+            isa = PBXProject;
+            attributes = {
+                LastUpgradeCheck = 1640;
+                TargetAttributes = {
+                    9D1ABE8A2F4C92CE00FA2C19 = {
+                        CreatedOnToolsVersion = 16.4;
+                    };
+                };
+            };
+            buildConfigurationList = 9D1ABE862F4C92CE00FA2C19;
+            mainGroup = 9D1ABE822F4C92CE00FA2C19;
+            productRefGroup = 9D1ABE8C2F4C92CE00FA2C19;
+            targets = (
+                9D1ABE8A2F4C92CE00FA2C19
+            );
+        };
+
+        9D1ABEA42F4C92CF00FA2C19 = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                INFOPLIST_FILE = iJava/Info.plist;
+                PRODUCT_BUNDLE_IDENTIFIER = dev.bacho.iJava;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SDKROOT = iphoneos;
+                TARGETED_DEVICE_FAMILY = "1,2";
+                IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+            };
+            name = Debug;
+        };
+
+        9D1ABEA52F4C92CF00FA2C19 = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                INFOPLIST_FILE = iJava/Info.plist;
+                PRODUCT_BUNDLE_IDENTIFIER = dev.bacho.iJava;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SDKROOT = iphoneos;
+                TARGETED_DEVICE_FAMILY = "1,2";
+                IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+            };
+            name = Release;
+        };
+
+    };
+    rootObject = 9D1ABE832F4C92CE00FA2C19;
+}
