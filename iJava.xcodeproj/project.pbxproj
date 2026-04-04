@@ -36,6 +36,12 @@
 			path = code.m;
 			sourceTree = "<group>";
 		};
+		1A5555555555555555555555 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.png;
+			path = icon.png;
+			sourceTree = "<group>";
+		};
 		3C1111111111111111111111 = {
 			isa = PBXFileReference;
 			lastKnownFileType = wrapper.framework;
@@ -49,6 +55,7 @@
 		2B3333333333333333333333 = {isa = PBXBuildFile; fileRef = 1A3333333333333333333333; };
 		2B4444444444444444444444 = {isa = PBXBuildFile; fileRef = 1A4444444444444444444444; };
 		2B5555555555555555555555 = {isa = PBXBuildFile; fileRef = 3C1111111111111111111111; };
+		2B6666666666666666666666 = {isa = PBXBuildFile; fileRef = 1A5555555555555555555555; };
 
 		9D1ABE822F4C92CE00FA2C19 = {
 			isa = PBXGroup;
@@ -74,7 +81,8 @@
 				1A1111111111111111111111,
 				1A2222222222222222222222,
 				1A3333333333333333333333,
-				1A4444444444444444444444
+				1A4444444444444444444444,
+				1A5555555555555555555555
 			);
 		};
 
@@ -100,7 +108,9 @@
 		9D1ABE892F4C92CE00FA2C19 = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
-			files = ();
+			files = (
+				2B6666666666666666666666
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 
