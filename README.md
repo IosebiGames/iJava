@@ -16,4 +16,4 @@ Realitionship behind this Project and people:
  Big Thanks for everyone who supported me or Played role in this.
  
 	<ins>Conclusion:</ins>
-  Java Runtime by itself on iOS is very limited unless large work is involved, Java is never primary development language on iOS, it only works as niche experiment rather than something that you'd use to make Full-blown iOS app. 
+  Java Runtime by itself on iOS is very limited unless large work is involved, Java is never primary development language on iOS, it only works as niche experiment rather than something that you'd use to make Full-blown iOS app, Java on iOS can be used for small logical operations if converted to simple ObjectiveC code.
