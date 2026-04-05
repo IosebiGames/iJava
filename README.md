@@ -8,11 +8,11 @@ even installable by today. I Moved into tools such as Codename One or GraalVM co
 But one day, I stumbled upon one nice website which lets you to convert GUI-less Java code into ObjectiveC code (with libraries! as long as they are minor), and guess how it unfold? I successfully converted my GUI-less Java code into ObjectiveC code and I saved it as .m file format. Since nobody was about to help, my Friend that I met months ago (Yes, the owner of iCodeWin), decide to try to convert my code.m file (the ObjectiveC code which I saved) and he got me some Unsigned IPA! which I signed by using 3uTools (yet it gave different failures
 and didn't sign new IPAs so later I used Sideloady which is very handy to directly install and sign IPAs on iOS), but iJava application on my IPhone 5 was working but it was crashing immediately and file writting wasn't working. In crash analysis, I found out that current IPA does not fall under arm64 architecture, so I had to ask my friend to set Deployment target and Architecture correctly (But he was using Xcodebuild happily but he wasn't able to set settings for IPA manually), so he reminded me about That Github repository that he send me days ago when he was bussy, so I forked it and started working with it (Luckily I got some instructions). And after many Github Action Errors and commits, I finally managed to build IPA with icon correctly. Finally after long dealing with Obstacles and failures, I managed to complete my goal of running Java on iOS 12.5.8, File is getting written flawlessly, and App no longer crashes. But I have to admit that XCode project was provided by One of the my friend iOS developer who usually worked with Swift but managed to send me valid ObjectiveC Project for XCode via Email.
 
-Realitionship behind this Project and people:
+ People's realitionship behind this project:
 - Bacho Dev (Local Georgian iOS developer): Helped to provide XCode project
 - ShadowX (Proud Owner of iCodeWin & iCodeSwift): Helped with this Github repository and Xcodebuild. 
    Also see ShadowX's portfolio: https://shadowhex-biography.vercel.app/
-- TopWorkNow (One of the workers from that Company who was suggested by one person who I found through Programming discord community, though their help was dedicated but limited).
+- TopWorkNow (One of the Partners from that Company's worker who I found through Programming discord community, though their help was dedicated but limited).
  Big Thanks for everyone who supported me or Played role in this.
  
 	<ins>Conclusion:</ins>
