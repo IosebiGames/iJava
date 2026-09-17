@@ -37,8 +37,8 @@ for. But during this experiment, I met with many different people.</br>
 | :--- | :--- | :---|        
 | ShadowX | Owner of iCodeWin and iCodeSwift. | Helped with Building first Unsigned IPA files, supported my experiment. |
 | Bacho Dev (Bacho Oniani) | Georgian iOS developer. | Worked on overall XCode project structure and provided it. |
-| One of the partners of Manager from topworknow.com | Used to have communication with manager of topworknow.com. | First determined person to try XCode on their MacOS, their help was genuine but limited. |
+| One of the partners of Manager from topworknow.com | Used to have communication with manager of topworknow.com | First determined person to try XCode on their MacOS, their help was genuine but limited. |
 
 ## **Conclusion, how was the iJava built and what it represents:**</br>
-When you download ``iJava.ipa`` file, it is Unsigned and needs to be signed by 3uTools or Sideloady to be installed on iOS 12.5.8</br>
+When you download ``iJava.ipa`` file, it is Unsigned IPA and it needs to be signed by 3uTools or Sideloady to be installed on iOS 12.5.8</br>
 When it is installed, it has an dark Java icon and when opening it up, there is an dark empty background. But in 3uTools inside of iJava's Sandboxed "Documents" folder, you can see ``Experiment.txt`` file. and in the XCode console, the printed text. iJava was built after Github actions that came along after Forking ``WkWebViewApp`` Github repository. this current repository contains XCode Project structure developed by Bacho Dev. 
