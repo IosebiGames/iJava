@@ -23,4 +23,5 @@ My first original steps was to:<br>
 | Gluon Substrate + GraalVM on MacOS! | Asking someone to setup all those just to help me will be huge pain.|
 | Run Java code by help of Cloud and SSH console on iPhone (Remotely) | Many SSH console apps don't support iOS 12.5.8 from Apple store or if some do, used to crash often.|
 | Ask on Stack Overflow to get ideas about using J2Objective-C on Windows| J2Objective-C tag on SO isn't actively popular so answers there were specific and in small amount.|
-| Trying to find Passionate iOS developer who understands XCode well on Reddit | Only trolls and user called 'CrocodiluQ' commented this experiment as "huge waste of time".|
+| Trying to find Passionate iOS developer who understands XCode well on Reddit | Only trolls and user called 'CrocodiluQ' commented this experiment as "huge waste of time". (I like being specific so don't get amused)|
+| I can ask on Discord iOS development discord servers to get help| Nobody wants to help even there.|
