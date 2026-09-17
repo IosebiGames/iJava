@@ -34,7 +34,7 @@ for. But during this experiment, I met with many different people.</br>
 
 ## **People's realitions behind iJava:**</br>
 | Person: | Who is: | Did what: |
-| :--- | :--- | | :---|        
+| :--- | :--- | :---|        
 | ShadowX | Owner of iCodeWin and iCodeSwift. | Helped with Building first Unsigned IPA files, supported my experiment. |
 | Bacho Dev (Bacho Oniani) | Georgian iOS developer. | Worked on overall XCode project structure and provided it. |
 | One of the partners of Manager from topworknow.com | Used to have communication with manager of topworknow.com. | First determined person to try XCode on their MacOS, their help was genuine but limited. |
