@@ -6,7 +6,6 @@ What I wanted to do wasn't sophisticated. I wanted to run Java code on iOS (whic
 
 **What Device I used:** iPhone 5s space gray, iOS 12.5.8</br>
 **What OS was I using:** Windows.</br>
-**Any Mac Device around me or anybody who had it:** No.<br>
 
 My first original steps was to:<br>
 **Write GUI-Less Java code without libraries -> Download J2Objective-C -> Use it to convert .java file to header (.h) and .m file -> Create Command Line tool Project in XCode and select language as Objective-C -> attach .h and .m file to the project -> set deployment target to iOS 12.5.8 -> get .app file -> sign it -> run on my iPhone.**</br>
