@@ -30,4 +30,11 @@ My first original steps was to:<br>
 
 ### What was overall solution:</br>
 One day when I was wondering about what to do, I found one online Website that helped to translate my GUI-Less Java code into Objective-C code, I pasted code there and finally got ``code.m`` file. Finally I no longer needed to use any translation tools. then I told my friend about this who was using **XCodebuild** to make first IPA file and he did it with icon! but later it became harder and harder so he got me GitHub repository that I forked. But this repository relies on XCode project structure which I got by someone to who I'm very grateful
-for. But during this experiment, I met with many different people.
+for. But during this experiment, I met with many different people.</br>
+
+## **People's realitions behind iJava:**</br>
+| Person: | Who is: | Did what: |
+| :--- | :--- | | :---|        
+| ShadowX | Owner of iCodeWin and iCodeSwift. | Helped with Building first Unsigned IPA files, supported my experiment. |
+| Bacho Dev (Bacho Oniani) | Georgian iOS developer. | Worked on overall XCode project structure and provided it. |
+| One of the partners of Manager from topworknow.com | Used to have communication with manager of topworknow.com. | First determined person to try XCode on their MacOS, their help was genuine but limited. |
