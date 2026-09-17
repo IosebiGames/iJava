@@ -11,7 +11,7 @@ My first original steps was to:<br>
 **Write GUI-Less Java code without libraries -> Download J2Objective-C -> Use it to convert .java file to header (.h) and .m file -> Create Command Line tool Project in XCode and select language as Objective-C -> attach .h and .m file to the project -> set deployment target to iOS 12.5.8 -> get .app file -> sign it -> run on my iPhone.**</br>
 
 ## **Nuances:**</br>
-| What was Expected: | What nuances turned out to exist: |
+| What was Expected: | What nuances showed up: |
 | :--- | :--- |
 | .app extension can run on iOS by clicking on it. | .app extension is for Apple store, it's not an signed IPA file which  you run by clicking on it.|
 | J2Objective-C works on Windows | No, J2Objective-C is best supported on MacOS, and doesn't work easily on Windows.|
@@ -26,3 +26,4 @@ My first original steps was to:<br>
 | Trying to find Passionate iOS developer who understands XCode well on Reddit | Only trolls and user called 'CrocodiluQ' commented this experiment as "huge waste of time" (I like being specific so don't get amused).|
 | I can ask on Discord iOS development discord servers to get help| Nobody wants to help even there.|
 | Someone can try to set Deployment target to iOS 12.5.8| Apple removed Deployment target beyond iOS 13.0 in XCode and plus deployment is paid.|
+| 3uTools would always be able to sign my IPA | 3uTools didn't always connect to Apple's services to sign IPA.| 
