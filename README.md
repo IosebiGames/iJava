@@ -45,5 +45,5 @@ When it is installed, it has an dark Java icon and when opening it up, there is 
 
 <img width="640" height="1136" alt="image" src="https://github.com/IosebiGames/iJava/blob/main/iJava/iJava_image.png?raw=true" /></br>
 
-**Sideloady:** https://sideloadly.io/index.html
+**Sideloady:** https://sideloadly.io/index.html</br>
 **3uTools:** https://www.3u.com/
