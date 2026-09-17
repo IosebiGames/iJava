@@ -9,4 +9,17 @@ What I wanted to do wasn't sophisticated. I wanted to run Java code on iOS (whic
 **Any Mac Device around me or anybody who had it:** No.<br>
 
 My first original steps was to:<br>
-**Write GUI-Less Java code without libraries -> Download J2Objective-C -> Use it to convert .java file to header (.h) and .m file -> Create Command Line tool Project in XCode and select language as Objective-C -> attach .h and .m file to the project -> set deployment target to iOS 12.5.8 -> get .app file -> sign it -> run on my iPhone.** 
+**Write GUI-Less Java code without libraries -> Download J2Objective-C -> Use it to convert .java file to header (.h) and .m file -> Create Command Line tool Project in XCode and select language as Objective-C -> attach .h and .m file to the project -> set deployment target to iOS 12.5.8 -> get .app file -> sign it -> run on my iPhone.**</br>
+
+## **It seems really easy as an idea if not bunch of nuances:**</br>
+| Expectation: | Reality: |
+| :--- | :--- |
+| .app extension can run on iOS by clicking on it. | .app extension is for Apple store, it's not an signed IPA file which  you run by clicking on it.|
+| J2Objective-C works on Windows | No, J2Objective-C is best supported on MacOS, and doesn't work easily on Windows.|
+| XCode is something that I can get | XCode only is downloadable on Mac, but I only have windows.|
+| J2Objective-C plugin on Eclipse is what I can try to use | J2Objective-C plugin on Eclipse had problems with installing as last maintaince of it was in Early 2012.|
+| I can ask anybody to help me by using their XCode | Nobody minds helping without money.|
+| I can use RoboVM on Eclipse | It doesn't work well on Eclipse.|
+| The Codename one! I can use that! | Also doesn't work on Eclipse well.|
+| Gluon Substrate + GraalVM on MacOS! | Asking someone to setup all those just to help me will be huge pain.|
+| Run Java code by help of Cloud and SSH console on iPhone (Remotely) | Many SSH console apps don't support iOS 12.5.8 from Apple store or if some do, used to crash often.|
