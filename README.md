@@ -3,7 +3,8 @@ JVM interprets bytecode (low-level code format that isn't more high-level than J
 
 # Understanding My setup:</br>
 1. I used iPhone 5s space gray/iOS 12.5.8 (even though the version itself is old, but trying to push limits and achieve what I wanted still felt like a goal).
-2. I wanted to run Java code on iOS (which doesn't use any External libraries and isn't GUI-Based), to let it write basic "Experiment.txt" file and print anything in console (like "GUI-Less Java Code Running on iOS!"). Since I'm not an iOS developer and never was, I was aiming to let this Java code to run on any versions of iOS but then I remembered about my iPhone 5s which is iOS 12.5.8. since we already know that Java also has Runtime translation tools made by it's community (one of well-remembered ones are J2Objective-C) which I exactly tried to use at the beginning for this experiment.</br>
+2. I wanted to run Java code on iOS (which doesn't use any External libraries and isn't GUI-Based), to let it write basic "Experiment.txt" file and print anything in console (like "GUI-Less Java Code Running on iOS!").
+3. Since I'm not an iOS developer and never was, I was aiming to let this Java code to run on any versions of iOS but then I remembered about my iPhone 5s which is iOS 12.5.8. since we already know that Java also has Runtime translation tools made by it's community (one of well-remembered ones are J2Objective-C) which I exactly tried to use at the beginning for this experiment.</br>
 
 My first original steps was to:<br>
 **Write GUI-Less Java code without libraries -> Download J2Objective-C -> Use it to convert .java file to header (.h) and .m file -> Create Command Line tool Project in XCode and select language as Objective-C -> attach .h and .m file to the project -> set deployment target to iOS 12.5.8 -> get .app file -> sign it -> run on my iPhone.**</br>
