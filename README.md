@@ -19,6 +19,8 @@ But the grass isn't always as greener as imagined, there are always nuances.** <
 | Gluon Substrate + GraalVM | Gluon substrate is for JavaFX to iOS projects but technically allows Core Java to convert into Objective-C code with GraalVM.| Only works on MacOS to which I don't have access to. |
 | SSH Console + Google Cloud | Many SSH console applications let you to run Java code across Google cloud.| Many SSH Console apps are crashing on iOS 12.0x |
 | Stikdebug | Enables JIT (Just in Time) Compiler to run JAR file, especially for those who want to run Games such as Minecraft (like via PojavLauncher) | I don't want to run Games, I'm attempting specific experiment. |
+| 3uTools | Really awesome app, let's you to sign IPA files and directly install on iPhone for 1 week, and gives access to storage | sometimes it fails to sign because of miscommunication with Apple services But it works overall. |
+| Sideloady | Elegant app for directly signing and installing IPA files on iPhone via USB | very picky about IPA's content but works excellently overall. |
 
 ## **The Factual and Social context:**</br>
 | Expectation: | Reality: |
