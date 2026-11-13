@@ -9,8 +9,11 @@ Java indeed has Runtime Translation tools around it too, but workaround isn't si
 ## **Runtime Translation Tools:**</br>
 | Tool: | What it does: | Nuances: |
 | :--- | :--- | :--- |
-| J2Objective-C| Translates GUI-Less .java code into .h (header) and .m Objective-C code that needs to be attached to the XCode Command line tool project's structure.| Not for Windows, Eclipse plugin isn't maintained. |
-| XCode | Only official IDE for iOS development. Lets you to create iOS projects, set deployment target and more| Strictly for Mac, paid, Deployment target of 12.0 is removed. |
+| J2Obj-C| Translates GUI-Less .java code into .h (header) and .m Objective-C code that needs to be attached to the XCode Command line tool project's structure.| Not for Windows, Eclipse plugin isn't maintained. |
+| XCode | Only official IDE for iOS development. Lets you to create iOS projects, set deployment target, produce IPA file and more| Strictly for Mac, paid, Deployment target of 12.0 is removed. |
+| RoboVM | Tool made for converting Java code into Objective-C code, includes Eclipse plugin.| Deployment from Eclipse only works on MacOS. |
+| Codename One | close to RoboVM by converting Java code into Objective-C code, includes Eclipse plugin.| Not well-maintained. |
+| Gluon Substrate + GraalVM | Gluon substrate is for JavaFX to iOS projects but technically allows Core Java to convert into Objective-C code with GraalVM.| Only works on MacOS, I have nobody to help and asking someone to setup those two would be pain. |
 
 ## **Nuances:**</br>
 | What was Expected: | What nuances showed up: |
