@@ -6,14 +6,16 @@ Regardless of whether its Java/JavaScript/Pascal/C/C++ none of them are able to 
 
 # What does it mean in context of Java:<br>
 Java indeed has Runtime Translation tools around it too, but workaround isn't simple for Windows users like me who have no access to MacOS at all, which is exactly what gives sophistication to this experiment, I managed to run Java on iOS without needing to use XCode directly.</br>
-## **Runtime Translation Tools:**</br>
+## **Runtime Translation Tools, Apps or services used:**</br>
 | Tool: | What it does: | Nuances: |
 | :--- | :--- | :--- |
 | J2Obj-C| Translates GUI-Less .java code into .h (header) and .m Objective-C code that needs to be attached to the XCode Command line tool project's structure.| Not for Windows, Eclipse plugin isn't maintained. |
 | XCode | Only official IDE for iOS development. Lets you to create iOS projects, set deployment target, produce IPA file and more| Strictly for Mac, paid, Deployment target of 12.0 is removed. |
 | RoboVM | Tool made for converting Java code into Objective-C code, includes Eclipse plugin.| Deployment from Eclipse only works on MacOS. |
 | Codename One | close to RoboVM by converting Java code into Objective-C code, includes Eclipse plugin.| Not well-maintained. |
-| Gluon Substrate + GraalVM | Gluon substrate is for JavaFX to iOS projects but technically allows Core Java to convert into Objective-C code with GraalVM.| Only works on MacOS, I have nobody to help and asking someone to setup those two would be pain. |
+| Gluon Substrate + GraalVM | Gluon substrate is for JavaFX to iOS projects but technically allows Core Java to convert into Objective-C code with GraalVM.| Only works on MacOS to which I don't have access to. |
+| SSH Console + Google Cloud | Many SSH console applications let you to run Java code across Google cloud.| Many SSH Console apps are crashing on iOS 12.0x |
+| Stikdebug | Enables JIT (Just in Time) Compiler to run JAR file, especially for those who want to run Games such as Minecraft (like via PojavLauncher) | I don't want to run Games, I'm attempting specific experiment. |
 
 ## **Nuances:**</br>
 | What was Expected: | What nuances showed up: |
