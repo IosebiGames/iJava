@@ -20,23 +20,13 @@ But the grass isn't always as greener as imagined, there are always nuances.** <
 | SSH Console + Google Cloud | Many SSH console applications let you to run Java code across Google cloud.| Many SSH Console apps are crashing on iOS 12.0x |
 | Stikdebug | Enables JIT (Just in Time) Compiler to run JAR file, especially for those who want to run Games such as Minecraft (like via PojavLauncher) | I don't want to run Games, I'm attempting specific experiment. |
 
-## **Nuances:**</br>
-| What was Expected: | What nuances showed up: |
+## **The Factual and Social context:**</br>
+| Expectation: | Reality: |
 | :--- | :--- |
-| .app extension can run on iOS by clicking on it. | .app extension is for Apple store, it's not an signed IPA file which  you run by clicking on it.|
-| J2Objective-C works on Windows | No, J2Objective-C is best supported on MacOS, and doesn't work easily on Windows.|
-| XCode is something that I can get | XCode only is downloadable on Mac, but I only have windows.|
-| J2Objective-C plugin on Eclipse is what I can try to use | J2Objective-C plugin on Eclipse had problems with installing as last maintaince of it was in Early 2012.|
-| I can ask anybody to help me by using their XCode | Nobody minds helping without money.|
-| I can use RoboVM on Eclipse | It doesn't work well on Eclipse.|
-| The Codename one! I can use that! | Also doesn't work on Eclipse well.|
-| Gluon Substrate + GraalVM on MacOS! | Asking someone to setup all those just to help me will be huge pain.|
-| Run Java code by help of Cloud and SSH console on iPhone (Remotely) | Many SSH console apps don't support iOS 12.5.8 from Apple store or if some do, used to crash often.|
-| Ask on Stack Overflow to get ideas about using J2Objective-C on Windows| J2Objective-C tag on SO isn't actively popular so answers there were specific and in small amount.|
-| Trying to find Passionate iOS developer who understands XCode well on Reddit | Only trolls and user called 'CrocodiluQ' commented this experiment as "huge waste of time" (I like being specific so don't get amused).|
-| I can ask on Discord iOS development discord servers to get help| Nobody wants to help even there.|
-| Someone can try to set Deployment target to iOS 12.5.8| Apple removed Deployment target beyond iOS 13.0 in XCode and plus deployment is paid.|
-| 3uTools would always be able to sign my IPA | 3uTools didn't always connect to Apple's services to sign IPA.|</br> 
+| .app is runnable by clicking. | .app extension is for Apple store, it's not an signed, runnable IPA file.|
+| People will help on Reddit | Nope, bunch of trolls who will downvote your post and type hateful comments.|
+| Ask anybody with XCode for help | I have nobody such who has XCode to help, only one local, Georgian iOS developer friend who had limited access to XCode, asking him to setup tools was too much pain, also nobody bothers to help without money.|
+| Asking help in Discord servers| Nobody helps even there.|
 
 ### What was overall solution:</br>
 One day when I was wondering about what to do, I found one online Website that helped to translate my GUI-Less Java code into Objective-C code, I pasted code there and finally got ``code.m`` file. Finally I no longer needed to use any translation tools. then I told my friend about this who was using **XCodebuild** to make first IPA file and he did it with icon! but later it became harder and harder so he got me GitHub repository that I forked. But this repository relies on XCode project structure which I got by someone to who I'm very grateful
