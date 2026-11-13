@@ -5,10 +5,10 @@ Apple only allows specific Development languages on IOS (such as Swift or Object
 Regardless of whether its Java/JavaScript/Pascal/C/C++ none of them are able to run on iOS natively. to solve this, community around languages started Runtime Translation Tool projects to translate foreign code into code that is native to the platform. translated code is no longer in same language as it was before.</br>
 
 # What does it mean in context of Java:<br>
-Java indeed has Runtime Translation tools around it too, but workaround isn't simple for Windows users like me who have no access to MacOS at all, which is exactly what gives sophistication to this experiment, I managed to run Java on iOS without needing to use XCode directly.
+Java indeed has Runtime Translation tools around it too, but workaround isn't simple for Windows users like me who have no access to MacOS at all, which is exactly what gives sophistication to this experiment, I managed to run Java on iOS without needing to use XCode directly.</br>
                       The original flow was:<br>
 **Setup J2Objective-C on Windows -> let it translate .java file into .h and .m files -> create Command Line tool project in XCode and select Language as Objective-C -> attach those files -> set deployment target to iOS 12.5.8 -> produce .app file -> Run it.</br>
-But the grass isn't always as greener as imagined, there are always nuances. <br>
+But the grass isn't always as greener as imagined, there are always nuances.** <br>
 ## **Runtime Translation Tools, Apps or services:**</br>
 | Tool: | What it does: | Nuances: |
 | :--- | :--- | :--- |
