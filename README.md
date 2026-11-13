@@ -4,8 +4,12 @@ iJava is an experiment of running Java on older version of iOS (specifically iOS
 Apple only allows specific Development languages on IOS (such as Swift or Objective-C), any other language that isn't native to iOS is disallowed.
 Regardless of whether its Java/JavaScript/Pascal/C/C++ none of them are able to run on iOS natively. to solve this, community around languages started Runtime Translation Tool projects to translate foreign code into code that is native to the platform. translated code is no longer in same language as it was before.</br>
 
-My first original steps was to:<br>
-**Write GUI-Less Java code without libraries -> Download J2Objective-C -> Use it to convert .java file to header (.h) and .m file -> Create Command Line tool Project in XCode and select language as Objective-C -> attach .h and .m file to the project -> set deployment target to iOS 12.5.8 -> get .app file -> sign it -> run on my iPhone.**</br>
+What does it mean in context of Java:<br>
+Java indeed has Runtime Translation tools around it too, but workaround isn't simple for Windows users like me who have no access to MacOS at all, which is exactly what gives sophistication to this experiment, I managed to run Java on iOS without needing to use XCode directly.</br>
+## **Runtime Translation Tools:**</br>
+| Tool: | What it does: | Trade-offs: |
+| :--- | :--- | :--- |
+| J2Objective-C | Translates GUI-Less .java code into .h (header) and .m Objective-C code | Can't be Downloaded on Windows, Eclipse plugin isn't maintained. |
 
 ## **Nuances:**</br>
 | What was Expected: | What nuances showed up: |
